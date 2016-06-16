@@ -1,5 +1,5 @@
-centos-base
-===========
+base-os
+=======
 
  - Para construir localmente ejecute `./local`, necesitará:
    - Docker (https://www.docker.com/)
@@ -13,7 +13,7 @@ centos-base
      # vim .drone.sec.yml
      # emacs .drone.sec.yml
      # etc...
-     drone secure --repo plataforma/centos-base --checksum
+     drone secure --repo plataforma/base-os --checksum
      rm .drone.sec.yml
      git add .drone.sec
      git commit -m "configurando secretos"

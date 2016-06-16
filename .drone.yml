@@ -1,7 +1,7 @@
 publish:
   docker:
     registry: 192.168.12.212:5000
-    repo: plataforma/centos-base
+    repo: plataforma/base-os
     tag:
       - latest
       - $$BRANCH-$${COMMIT:0:7}-$$BUILD_NUMBER
