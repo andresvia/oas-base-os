@@ -2,8 +2,8 @@ base-os
 =======
 
  - Para construir localmente ejecute `./local`, necesitará:
-   - Docker (https://www.docker.com/)
-   - Drone (http://readme.drone.io/devs/cli/)
+   - [Docker](https://www.docker.com/)
+   - [Drone](http://readme.drone.io/devs/cli/)
  - Para construir automáticamente activar el proyecto en Drone
    - Generar los secretos necesarios según el archivo `secrets_example.yml` de la siguiente manera:
      ```
