@@ -16,7 +16,7 @@ cache:
 notify:
   webhook:
     urls:
-      - "https://api.telegram.org/bot$$TELEGRAM_BOT_KEY/sendMessage"
+      - https://api.telegram.org/bot$$TELEGRAM_BOT_KEY/sendMessage
     content_type: application/json
     template: >
       {
