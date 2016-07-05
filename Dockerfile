@@ -1,5 +1,5 @@
 FROM centos:7.2.1511
-RUN yum install -y wget unzip && yum clean all
+RUN yum install -y wget unzip git && yum clean all
 ENV AWS_DOWNLOAD_URL https://s3.amazonaws.com/aws-cli/awscli-bundle.zip
 RUN cd /tmp && \
   wget -q $AWS_DOWNLOAD_URL && \
