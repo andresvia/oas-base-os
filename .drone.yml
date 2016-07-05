@@ -7,7 +7,6 @@ publish:
       - $$BRANCH-$${COMMIT:0:7}-$$BUILD_NUMBER
     file: Dockerfile
     insecure: true
-    storage_driver: overlay
 
 cache:
   mount:
