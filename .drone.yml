@@ -4,6 +4,7 @@ publish:
     repo: plataforma/base-os
     tag:
       - latest
+      - $$BRANCH
       - $$BRANCH-$${COMMIT:0:7}-$$BUILD_NUMBER
     file: Dockerfile
     insecure: true
