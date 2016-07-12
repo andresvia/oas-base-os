@@ -1,7 +1,4 @@
 base-os
 =======
 
- - Para construir localmente ejecute `./local`, necesitará:
-   - [Docker](https://www.docker.com/)
-   - [Drone](http://readme.drone.io/devs/cli/)
- - Para construir automáticamente activar el proyecto en Drone
+ - Se mueve a http://10.20.0.126:3000/plataforma/base-os
